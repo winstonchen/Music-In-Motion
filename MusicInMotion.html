@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<Title>Music in Motion</Title>
+	</head>
+	<Body>
+		<div>
+			<img src = "donut.png" id = "aDonut" style = "height: 300px; margin-left: 145px; margin-top:155px;">
+			<img src = "donut.png" id = "donut" style = "height: 300px; z-index: 100; display:none; margin-left: 145px; margin-top:155px">
+		</div>
+		<div>
+			<img src = "pokeball.png" id = "aPokeball" style = "height: 300px; margin-left: 548px;  margin-top:155px;">
+			<img src = "pokeball.png" id = "pokeball" style = "height: 300px; z-index: 100;margin-left:400px; display:none;margin-left: 548px;  margin-top:155px;">
+		</div>
+		<div id = "palmPosition" style = "padding-top: 300px;"></div>
+		<div>
+			<audio controls autoplay id = "audio" style = "padding-top: 100px; display: none">
+				<source src = "WaxOnWaxOff.mp3" type= "audio/mp3">
+			</audio>
+			<audio controls autoplay id = "audioTwo" style = "padding-top: 100px; display:none">
+				<source src = "Juicy-vocals.mp3" type= "audio/mp3">
+				<source src = "fortminor-instrumental.mp3" type= "audio/mp3">
+			</audio>
+			<audio controls id = "rewind" style = "padding-top: 100px; display:none">
+				<source src = "rewind.mp3" type= "audio/mp3">
+			</audio>
+		</div>
+		<div id= "creator">
+			Created by Winston Chen
+		</div>
+	</Body>
+	<link rel=stylesheet type=text/css href = "mim.css">
+    <script src="leap.0.6.1.min.js"></script>
+    <script src="jquery.2.1.1.min.js"></script>
+	<script src="MiM.js"></script>
+</html>
